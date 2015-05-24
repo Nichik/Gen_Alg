@@ -68,7 +68,6 @@ public:
 			Xc = Xc_; Yc = Yc_; R = R_; accuracy = accuracy_;
 			cout << "How much animals do you want?\n";
 			cin >> sz;
-			pop.reserve(sz);
 			srand(time(NULL));
 
 			for (int i = 0; i < sz; i++)
