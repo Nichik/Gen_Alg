@@ -179,8 +179,8 @@ public:
 		for (int i = 0; i < sz; i++)
 		{
 			pop[i].survive = f(pop[i].gene_x, pop[i].gene_y);
-			_outputf(fout, pop[i].gene_x, pop[i].gene_y, 1);
-			cout << pop[i].survive << endl;
+			_outputf(fout, pop[i].gene_x, pop[i].gene_y, 1);//перепись всех животных
+			//cout << pop[i].survive << endl;//проверка
 		}
 	}
 
